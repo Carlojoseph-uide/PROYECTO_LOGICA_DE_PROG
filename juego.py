@@ -8,7 +8,6 @@ def mostrar_menu():
         2. Reglas
         3. Salir
     """
-    hola
     while True:
         print("\nMenú Principal")
         print("1. Jugar")
@@ -72,10 +71,10 @@ def jugar_contra_maquina ():
     """
      Ejecuta el modo de jueego contra la máquina.
     """
-    num_partidas = int(input("Ingrese el número de partidas que desea jugar"))
+    num_partidas = int(input("Ingrese el número de partidas que desea jugar: "))
     for _ in range(num_partidas):
         jugadas = ["piedra", "papel", "tijera"]
-        jugador = str(input("usuario_mainIngrese su jugada, ya sea piedra, papel o tijera: "))
+        jugador = str(input("Ingrese su jugada, ya sea piedra, papel o tijera: "))
         machine = random.choice(jugadas)
         print("maquina: ", machine)
         # Condicionales que permiten seleccionar como ganador al usuario
