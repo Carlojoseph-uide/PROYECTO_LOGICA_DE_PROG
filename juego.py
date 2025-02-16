@@ -8,6 +8,7 @@ def mostrar_menu():
         2. Reglas
         3. Salir
     """
+    hola
     while True:
         print("\nMenú Principal")
         print("1. Jugar")
